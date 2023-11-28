@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <link href="./css/formularios.css" rel="stylesheet" />
+  </head>
+  <body class="cuerpo for">
+    <h1 class="titulo">Formularios en html</h1>
+    <form method="post" action="server">
+      <fieldset>
+        <legend>Datos Persona</legend>
+        <div>
+          <label for="num1">Nombre</label><br />
+          <input type="text" id="num1" required="true" class="pepe" /><br />
+
+          <label for="0">Apellido</label><br />
+          <input type="text" id="0" required="true" class="pepe" /><br />
+
+          <label for="num2">Email</label><br />
+          <input type="email" id="num2" required="true" class="pepe" /><br />
+
+          <label for="num3">Contraseña</label><br />
+          <input type="password" id="num3" required="true" class="pepe" /><br />
+        </div>
+        <div>
+          <label for="num4">Color</label><br />
+          <input type="color" id="num4" required="true" class="pepe" /><br />
+
+          <label for="num5">Fecha</label><br />
+          <input type="date" id="num5" required="true" class="pepe" /><br />
+
+          <label for="num6">numero</label><br />
+          <input type="number" id="num6" required="true" class="pepe" /><br />
+        </div>
+        <input type="submit" value="Enviar" />
+      </fieldset>
+    </form>
+  </body>
+</html>

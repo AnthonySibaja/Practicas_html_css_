@@ -1,0 +1,16 @@
+.cuerpo{
+   
+    background: rgb(3,13,84);
+    background: linear-gradient(90deg, rgba(3,13,84,1) 1%, rgba(8,77,72,1) 46%, rgba(34,120,138,1) 95%);}
+.titulo{
+    color: rgb(253, 253, 253) ;
+    text-align: center;
+}
+.for{
+    color: aliceblue;
+}
+.pepe{
+    width: 250px;
+    padding: 2px;
+    margin-bottom: 10px;
+}

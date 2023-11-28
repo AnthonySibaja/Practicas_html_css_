@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+    
+}
+div.contenedor.flotado{
+    float: left;
+}
+div.contenedor.flotado.contenedor1{
+    border: 5px dashed blue;
+
+}
+div.contenedor.flotado.contenedor2{
+    border: 5px dashed yellow;
+    float: right;
+    
+}
+div.contenedor.flotado.contenedor3{
+    clear: both;
+    border: 5px dashed orangered;
+    margin: auto;
+    
+}

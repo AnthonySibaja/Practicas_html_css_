@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: rgb(101, 238, 9)
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 5px dashed rgb(124, 37, 5);
+
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: rgb(206, 255, 127);
+    border: 3px dashed rgb(5, 170, 5);
+    height: 20px;
+    padding: 5px;
+    display: inline-block;
+}

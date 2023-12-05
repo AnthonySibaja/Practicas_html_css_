@@ -10,10 +10,18 @@ div.contenedor{
     /* flex-direction: row;
     flex-wrap: wrap; */
     flex-flow: row wrap;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
     justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
     height: 300px;
     align-items: stretch;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
     /* align-content: center; */
+    /* align-items: baseline; */
 }
 div.contenedor > p{
     background-color: #4895ef;
